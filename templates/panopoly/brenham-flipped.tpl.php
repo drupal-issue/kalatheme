@@ -12,23 +12,19 @@
 
 <div class="panel-display brenham-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
   <section class="section alt" id="promo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> brenham-flipped-promo">
-          <?php print $content['header']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> brenham-flipped-promo">
+        <?php print $content['header']; ?>
       </div>
     </div>
   </section>
   <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD * 2); ?> brenham-flipped-main-content">
-          <?php print $content['contentmain']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD); ?> brenham-flipped-main-side">
-          <?php print $content['sidebar']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD * 2); ?> brenham-flipped-main-content">
+        <?php print $content['contentmain']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD); ?> brenham-flipped-main-side">
+        <?php print $content['sidebar']; ?>
       </div>
     </div>
   </section>

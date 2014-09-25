@@ -12,38 +12,32 @@
 
 <div class="panel-display rolph clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
   <section class="section alt" id="promo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> rolph-header-area">
-          <?php print $content['header']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> rolph-header-area">
+        <?php print $content['header']; ?>
       </div>
     </div>
   </section>
   <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region1-">
-          <?php print $content['quarter1']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-2">
-          <?php print $content['quarter2']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-3">
-          <?php print $content['quarter3']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-4">
-          <?php print $content['quarter4']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region1-">
+        <?php print $content['quarter1']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-2">
+        <?php print $content['quarter2']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-3">
+        <?php print $content['quarter3']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 4); ?> rolph-column-content-region-4">
+        <?php print $content['quarter4']; ?>
       </div>
     </div>
   </section>
    <footer class="section" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> rolph-footer-area">
-          <?php print $content['footer']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FULL); ?> rolph-footer-area">
+        <?php print $content['footer']; ?>
       </div>
     </div>
   </footer>

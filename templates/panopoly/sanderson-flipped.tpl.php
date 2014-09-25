@@ -12,29 +12,25 @@
 
 <div class="panel-display sanderson-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
   <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-1">
-          <?php print $content['column1']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-2">
-          <?php print $content['column2']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-3">
-          <?php print $content['column3']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-1">
+        <?php print $content['column1']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-2">
+        <?php print $content['column2']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD, 3); ?> sanderson-flipped-column-content-region-3">
+        <?php print $content['column3']; ?>
       </div>
     </div>
   </section>
   <footer class="section" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF); ?> sanderson-flipped-secondary-column-content-region-1">
-          <?php print $content['secondarycolumn1']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF); ?> sanderson-flipped-secondary-column-content-region-2">
-          <?php print $content['secondarycolumn2']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF); ?> sanderson-flipped-secondary-column-content-region-1">
+        <?php print $content['secondarycolumn1']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF); ?> sanderson-flipped-secondary-column-content-region-2">
+        <?php print $content['secondarycolumn2']; ?>
       </div>
     </div>
   </footer>

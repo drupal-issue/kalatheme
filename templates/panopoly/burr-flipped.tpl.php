@@ -12,14 +12,12 @@
 
 <div class="panel-display burr-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
   <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD * 2); ?> burr-flipped-main-content">
-          <?php print $content['contentmain']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD); ?> burr-flipped-sidebar-content">
-          <?php print $content['sidebar']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD * 2); ?> burr-flipped-main-content">
+        <?php print $content['contentmain']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_THIRD); ?> burr-flipped-sidebar-content">
+        <?php print $content['sidebar']; ?>
       </div>
     </div>
   </section>

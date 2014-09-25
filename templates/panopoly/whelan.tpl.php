@@ -12,17 +12,15 @@
 
 <div class="panel-display whelan clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
   <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 3); ?> whelan-column-content-region-1">
-          <?php print $content['column1']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF, 3); ?> whelan-column-content-region-2">
-          <?php print $content['contentmain']; ?>
-        </div>
-        <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 3); ?> whelan-column-content-region-3">
-          <?php print $content['column2']; ?>
-        </div>
+    <div class="row">
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 3); ?> whelan-column-content-region-1">
+        <?php print $content['column1']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_HALF, 3); ?> whelan-column-content-region-2">
+        <?php print $content['contentmain']; ?>
+      </div>
+      <div class="col-md-<?php print kalatheme_grid_size(KALATHEME_GRID_FOURTH, 3); ?> whelan-column-content-region-3">
+        <?php print $content['column2']; ?>
       </div>
     </div>
   </section>
